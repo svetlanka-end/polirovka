@@ -22,7 +22,6 @@
   flex-wrap: wrap;
   flex-direction: row;
   gap: 59px 30px;
-  align-items: flex-start;
 }
 
 .grid__item-container {
@@ -41,6 +40,7 @@
   flex-direction: column;
   text-decoration: none;
   z-index: 2;
+  max-height: 200px;
 }
 
 .grid__item:nth-child(10n + 10) {
