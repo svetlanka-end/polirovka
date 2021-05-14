@@ -1,0 +1,67 @@
+.preview {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 165px 50px 165px;
+}
+
+.preview__photo {
+  background-image: url(../images/car-wash-detailing-station.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 55vh;
+  border-radius: 8px;
+}
+
+.preview__container-subtitle {
+  display: flex;
+}
+
+.preview__container-address {
+  display: flex;
+  white-space: nowrap;
+}
+
+.preview__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 68px;
+  line-height: 132.8%;
+  margin: 28px 0 15px 0;
+  font-family: "Matahari", sans-serif;
+}
+
+.preview__subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 132.8%;
+  margin: 0 30px 3px 0;
+}
+
+.preview__address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 132.8%;
+  margin: 5px 0 0 5px;
+}
+
+.preview__call-button {
+  background-color: #8a1a10;
+  box-shadow: 0px 4px 20px rgba(255, 0, 0, 0.33);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  width: 255px;
+  height: 60px;
+  border-color: rgba(255, 0, 0, 0);
+  color: #fff;
+  margin: 41px 0 0 0;
+}

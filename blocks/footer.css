@@ -1,0 +1,136 @@
+.footer {
+  background-color: #171717;
+  display: grid;
+  grid-template-columns: 800px auto;
+  grid-template-rows: auto auto;
+}
+
+.footer__title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer__form {
+  padding: 0 0 82px 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 623px;
+}
+
+.footer__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 132.8%;
+  margin: 0 40px 0 0;
+}
+
+.footer__button-call {
+  background-color: #171717;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 255px;
+  height: 60px;
+  border-color: rgba(255, 0, 0, 0);
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 20px;
+}
+
+.footer__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 132.8%;
+  max-width: 442px;
+  margin: 40px 0 20px 0;
+}
+
+.footer__input-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0 0 6px 0;
+}
+
+.footer__input-title:last-of-type {
+  margin: 28px 0 6px 0;
+}
+
+.footer__input {
+  background: #ffffff;
+  border: 1px solid #949494;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 335px;
+  height: 59px;
+  border: 1px solid #949494;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 20px;
+  color: #8a1a10;
+}
+
+.footer__input:focus {
+  border: 2px solid #171717;
+}
+
+.footer__submit-button {
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 255px;
+  height: 60px;
+  border-color: rgba(255, 0, 0, 0);
+  color: #171717;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 28px 0 0 0;
+}
+
+.footer__container {
+  padding: 49px 0 0 170px;
+  background-color: #8a1a10;
+}
+
+.footer__container-two {
+  background-color: #171717;
+  padding: 120px 0 0 105px;
+  margin: 0;
+  max-width: 381px;
+}
+
+.footer__container-cart {
+  max-width: 800px;
+}
+
+.footer__logo {
+  margin: 0;
+  width: 100%;
+}
+
+.footer__social-logo {
+  width: 38px;
+  height: 38px;
+  margin: 0 18px 0 0;
+}
+
+.footer__photo {
+  background-image: url(../images/car-wash-detailing-station-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

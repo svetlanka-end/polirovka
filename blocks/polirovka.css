@@ -1,0 +1,65 @@
+.polirovka {
+  max-width: 909px;
+  margin: 50px 0 100px 165px;
+}
+
+.polirovka__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 68px;
+  line-height: 132.8%;
+  margin: 0 0 43px 0;
+}
+
+.polirovka__title-text-conteiner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  width: 100%;
+  grid-column-gap: 29px;
+}
+
+.polirovka__subtitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 132.8%;
+  margin: 55px 0 14px 0;
+}
+
+.polirovka__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 132.8%;
+  margin: 0;
+  max-width: 410px;
+}
+
+.partners {
+  max-width: 1110px;
+  margin: 0 auto 100px auto;
+}
+
+.partners__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 128%;
+  margin: 0;
+}
+
+.partners__grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 44px auto 0 auto;
+  max-width: 1004px;
+  justify-content: space-around;
+  gap: 15px;
+  align-items: center;
+}
+
+.partners__logo {
+  max-height: 100%;
+  max-width: 100%;
+}

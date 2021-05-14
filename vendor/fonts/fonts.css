@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  src: url("./Montserrat-Regular.woff2") format("woff2"),
+    url("./Montserrat-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  src: url("./Montserrat-Medium.woff2") format("woff2"),
+    url("./Montserrat-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 600;
+  src: url("./Montserrat-SemiBold.woff2") format("woff2"),
+    url("./Montserrat-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 900;
+  src: url("./Montserrat-ExtraBold.woff2") format("woff2"),
+    url("./Montserrat-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Matahari";
+  font-weight: 900;
+  src: url("./Matahari-900Black.woff2") format("woff2"),
+    url(".//Matahari-900Black.woff") format("woff");
+}
