@@ -82,7 +82,7 @@
   z-index: 2;
 }
 
-.circle-left {
+.circle-right {
   width: 755px;
   height: 697px;
   background-color: #8a1a10;
@@ -93,7 +93,7 @@
   top: 200px;
 }
 
-.circle-right {
+.circle-left {
   width: 525px;
   height: 516px;
   background-color: #8a1a10;
@@ -101,5 +101,5 @@
   left: -174px;
   border-radius: 50%;
   z-index: 1;
-  top: 970px;
+  top: 910px;
 }
