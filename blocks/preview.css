@@ -5,8 +5,9 @@
 }
 
 .preview__photo {
-  background-image: url(../images/car-wash-detailing-station.png);
+  background-image: url(../images/м1.jpg);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 55vh;

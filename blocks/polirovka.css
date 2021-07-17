@@ -11,6 +11,10 @@
   margin: 0 0 43px 0;
 }
 
+.polirovka__title-photo {
+  max-width: 100%;
+}
+
 .polirovka__title-text-conteiner {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -62,4 +66,23 @@
 .partners__logo {
   max-height: 100%;
   max-width: 100%;
+}
+
+.certificates {
+  padding: 0 165px 100px 165px;
+  margin: 0 auto;
+}
+
+.certificates__container {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.certificates__photo {
+  max-width: 300px;
+  cursor: pointer;
 }
